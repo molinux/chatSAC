@@ -17,7 +17,7 @@ class Setting {
   @UpdateDateColumn()
   updated_at: Date;
 
-  @UpdateDateColumn()
+  @CreateDateColumn()
   created_at: Date;
 
   constructor() {
